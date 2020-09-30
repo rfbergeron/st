@@ -8,6 +8,12 @@ This build has a number of patches applied:
 - workingdir
 - vertcenter
 - boxdraw
+- anysize
+- anygeometry
+
+It is meant to be used with a tool like tmux or GNU Screen; there will
+be little to no keybindings for the terminal itself.
+
 
 Requirements
 ------------
