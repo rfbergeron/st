@@ -2,6 +2,12 @@ st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
 
+This build has a number of patches applied:
+- blinking cursor
+- newterm
+- workingdir
+- vertcenter
+- boxdraw
 
 Requirements
 ------------
