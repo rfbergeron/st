@@ -10,10 +10,25 @@ This build has a number of patches applied:
 - boxdraw
 - anysize
 - anygeometry
+- alpha
+- osc 10 11 12
+- selectioncolors
+- selectionbg alpha
+- xresources
+- xclearwin
+- spoiler
+
+I may have forgotten to list a couple but that should be the majority of them.
 
 It is meant to be used with a tool like tmux or GNU Screen; there will
 be little to no keybindings for the terminal itself.
 
+In addition to these patches, I have made a few modifications of my own:
+- st now understands urxvt-style OSC 11 sequences, which set the alpha value
+- the alpha value can now be kept when OSC 11 is read; this can be turned off
+  to allow the terminal to be made fully opaque when using urxvt-style sequences
+- implemented OSC 13, 14, 17
+- minor changes to the default config to make all the patches play nice together
 
 Requirements
 ------------

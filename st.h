@@ -34,6 +34,7 @@ enum glyph_attribute {
 	ATTR_WIDE       = 1 << 9,
 	ATTR_WDUMMY     = 1 << 10,
 	ATTR_BOXDRAW    = 1 << 11,
+        ATTR_SELECTED   = 1 << 12,
 	ATTR_BOLD_FAINT = ATTR_BOLD | ATTR_FAINT,
 };
 
@@ -134,3 +135,10 @@ extern unsigned int tabspaces;
 extern unsigned int defaultfg;
 extern unsigned int defaultbg;
 extern const int boxdraw, boxdraw_bold, boxdraw_braille;
+extern unsigned int defaultcs;
+extern unsigned int selectionbg;
+extern unsigned int selectionfg;
+extern unsigned int mousefg;
+extern unsigned int mousebg;
+extern float alpha;
+extern int resetalpha;
